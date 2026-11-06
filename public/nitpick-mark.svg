@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 36 36">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+        font-family: Arial-Black, 'Arial Black';
+        font-size: 36.69px;
+        font-weight: 800;
+      }
+
+      .st0, .st1, .st2 {
+        isolation: isolate;
+      }
+
+      .st1 {
+        fill: #ffa301;
+        font-family: Arial-BoldMT, Arial;
+        font-size: 12.87px;
+        font-weight: 700;
+      }
+
+      .st3 {
+        fill: #41b6e6;
+      }
+    </style>
+  </defs>
+  <circle class="st3" cx="17.75" cy="17.92" r="17.31"/>
+  <g class="st2">
+    <g class="st2">
+      <text class="st0" transform="translate(5.69 27.69)"><tspan x="0" y="0">n</tspan></text>
+    </g>
+  </g>
+  <g class="st2">
+    <g class="st2">
+      <text class="st1" transform="translate(21.02 19.94)"><tspan x="0" y="0">*</tspan></text>
+    </g>
+  </g>
+</svg>

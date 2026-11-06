@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{fontspec,graphicx,longtable,caption,biblatex,fancyhdr}
+\newfontfamily\coverfont{SomeFont.otf}
+\newcommand{\authorname}{Reader 中文}
+\newcommand{\projectname}{Cell states}
+\graphicspath{{images/}}
+\addbibresource{library.bib}
+\begin{document}
+\input{sections/titlepage}
+\clearpage
+\input{sections/essay}
+\fancyhead[L]{References}
+\printbibliography[title={References}]
+\clearpage
+\section*{Figures and Tables}
+\begin{minipage}{\textwidth}
+\raggedright
+\includegraphics[width=\textwidth]{Figure1.pdf}
+\captionsetup{labelfont=bf}
+\captionof{figure}{\textbf{A complete figure caption.} This text must remain selectable even when its PDF figure cannot be shown.}
+\label{fig:state}
+\end{minipage}
+\input{sections/tables}
+\end{document}

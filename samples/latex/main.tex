@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{amsmath}
+\newcommand{\study}{careful reading}
+\newcommand{\term}[1]{\textbf{#1}}
+\title{The case for careful reading}
+\author{An example essay}
+\begin{document}
+\maketitle
+\section{Background}
+Repeated phrase. 中文文本：读得更仔细。 Repeated phrase.
+
+We use \study{} and \term{exact anchors}, with \emph{emphasis} and a citation \cite{smith2024}. A footnote\footnote{This is the complete footnote.} stays visible.
+
+\section{Methods}
+Before $E=mc^2$ after. The expression is atomic.
+\[
+\int_0^1 x^2\,dx=\frac13
+\]
+\begin{itemize}
+\item First item.
+\item Second item with \textbf{bold text}.
+\end{itemize}
+\begin{tabular}{ll}
+Name & Value \\
+Alpha & 42 \\
+\end{tabular}
+\begin{figure}
+\includegraphics[width=.5\textwidth]{diagram.svg}
+\caption{An example figure.}
+\end{figure}
+\begin{tikzpicture}\draw (0,0) -- (1,1);\end{tikzpicture}
+\input{conclusion}
+\end{document}

@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "blocks": 16,
+  "characters": 684,
+  "warnings": [
+    "Unresolved citation: smith2024. The citation source is retained; include its .bib file to display author and year.",
+    "Unsupported environment: tikzpicture: preserved as a selectable placeholder; source is retained.",
+    "Unsupported command: \\mystery{content}: preserved as a selectable placeholder; source is retained."
+  ],
+  "features": [
+    "Unicode",
+    "repeated occurrences",
+    "inline and display math",
+    "custom macros",
+    "sections",
+    "citations",
+    "footnotes",
+    "lists",
+    "table content",
+    "figure images",
+    "input source file attribution",
+    "atomic unsupported placeholders"
+  ]
+}

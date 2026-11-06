@@ -1,0 +1,2044 @@
+{
+  "format": "nitpick",
+  "version": 1,
+  "id": "sample-unfinished-latex",
+  "title": "Careful reading",
+  "doc": {
+    "name": "Careful reading.tex",
+    "format": "tex",
+    "main": "paper/main.tex",
+    "files": {
+      "paper/main.tex": "\\documentclass{article}\n\\usepackage{amsmath}\n\\newcommand{\\study}{careful reading}\n\\newcommand{\\term}[1]{\\textbf{#1}}\n\\title{The case for careful reading}\n\\author{An example essay}\n\\begin{document}\n\\maketitle\n\\section{Background}\nRepeated phrase. 中文文本：读得更仔细。 Repeated phrase.\n\nWe use \\study{} and \\term{exact anchors}, with \\emph{emphasis} and a citation \\cite{smith2024}. A footnote\\footnote{This is the complete footnote.} stays visible.\n\n\\section{Methods}\nBefore $E=mc^2$ after. The expression is atomic.\n\\[\n\\int_0^1 x^2\\,dx=\\frac13\n\\]\n\\begin{itemize}\n\\item First item.\n\\item Second item with \\textbf{bold text}.\n\\end{itemize}\n\\begin{tabular}{ll}\nName & Value \\\\\nAlpha & 42 \\\\\n\\end{tabular}\n\\begin{figure}\n\\includegraphics[width=.5\\textwidth]{diagram.svg}\n\\caption{An example figure.}\n\\end{figure}\n\\begin{tikzpicture}\\draw (0,0) -- (1,1);\\end{tikzpicture}\n\\input{conclusion}\n\\end{document}\n",
+      "paper/conclusion.tex": "\\section{Conclusion}\nIncluded text has its own source coordinates. Unsupported \\mystery{content} must stay visible.\n\nA long paragraph with a repeated phrase. The repeated phrase is intentional.\n"
+    },
+    "assets": {
+      "paper/diagram.svg": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMjAiIGhlaWdodD0iOTAiPjxyZWN0IHdpZHRoPSIzMjAiIGhlaWdodD0iOTAiIGZpbGw9IiNmMWVlZTYiLz48dGV4dCB4PSIzNSIgeT0iNTEiIGZvbnQtc2l6ZT0iMjAiIGZpbGw9IiM1NzU4NGUiPlJlYWQg4oaSIE1hcmsg4oaSIEV4cG9ydDwvdGV4dD48L3N2Zz4K"
+    },
+    "blocks": [
+      {
+        "id": "b0",
+        "kind": "title",
+        "level": 1,
+        "runs": [
+          {
+            "text": "The",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 124,
+              "end": 127
+            },
+            "atomic": false,
+            "start": 0,
+            "end": 3
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 127,
+              "end": 128
+            },
+            "atomic": false,
+            "start": 3,
+            "end": 4
+          },
+          {
+            "text": "case",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 128,
+              "end": 132
+            },
+            "atomic": false,
+            "start": 4,
+            "end": 8
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 132,
+              "end": 133
+            },
+            "atomic": false,
+            "start": 8,
+            "end": 9
+          },
+          {
+            "text": "for",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 133,
+              "end": 136
+            },
+            "atomic": false,
+            "start": 9,
+            "end": 12
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 136,
+              "end": 137
+            },
+            "atomic": false,
+            "start": 12,
+            "end": 13
+          },
+          {
+            "text": "careful",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 137,
+              "end": 144
+            },
+            "atomic": false,
+            "start": 13,
+            "end": 20
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 144,
+              "end": 145
+            },
+            "atomic": false,
+            "start": 20,
+            "end": 21
+          },
+          {
+            "text": "reading",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 145,
+              "end": 152
+            },
+            "atomic": false,
+            "start": 21,
+            "end": 28
+          }
+        ],
+        "start": 0,
+        "end": 28,
+        "section": 0,
+        "heading": "",
+        "paragraph": 0
+      },
+      {
+        "id": "b1",
+        "kind": "heading",
+        "level": 2,
+        "runs": [
+          {
+            "text": "Background",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 217,
+              "end": 227
+            },
+            "atomic": false,
+            "start": 30,
+            "end": 40
+          }
+        ],
+        "start": 30,
+        "end": 40,
+        "section": 1,
+        "heading": "Background",
+        "paragraph": 0
+      },
+      {
+        "id": "b2",
+        "kind": "paragraph",
+        "runs": [
+          {
+            "text": "Repeated",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 229,
+              "end": 237
+            },
+            "atomic": false,
+            "start": 42,
+            "end": 50
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 237,
+              "end": 238
+            },
+            "atomic": false,
+            "start": 50,
+            "end": 51
+          },
+          {
+            "text": "phrase",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 238,
+              "end": 244
+            },
+            "atomic": false,
+            "start": 51,
+            "end": 57
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 244,
+              "end": 245
+            },
+            "atomic": false,
+            "start": 57,
+            "end": 58
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 245,
+              "end": 246
+            },
+            "atomic": false,
+            "start": 58,
+            "end": 59
+          },
+          {
+            "text": "中文文本：读得更仔细。",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 246,
+              "end": 257
+            },
+            "atomic": false,
+            "start": 59,
+            "end": 70
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 257,
+              "end": 258
+            },
+            "atomic": false,
+            "start": 70,
+            "end": 71
+          },
+          {
+            "text": "Repeated",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 258,
+              "end": 266
+            },
+            "atomic": false,
+            "start": 71,
+            "end": 79
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 266,
+              "end": 267
+            },
+            "atomic": false,
+            "start": 79,
+            "end": 80
+          },
+          {
+            "text": "phrase",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 267,
+              "end": 273
+            },
+            "atomic": false,
+            "start": 80,
+            "end": 86
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 273,
+              "end": 274
+            },
+            "atomic": false,
+            "start": 86,
+            "end": 87
+          }
+        ],
+        "start": 42,
+        "end": 87,
+        "section": 1,
+        "heading": "Background",
+        "paragraph": 1
+      },
+      {
+        "id": "b3",
+        "kind": "paragraph",
+        "runs": [
+          {
+            "text": "We",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 276,
+              "end": 278
+            },
+            "atomic": false,
+            "start": 89,
+            "end": 91
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 278,
+              "end": 279
+            },
+            "atomic": false,
+            "start": 91,
+            "end": 92
+          },
+          {
+            "text": "use",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 279,
+              "end": 282
+            },
+            "atomic": false,
+            "start": 92,
+            "end": 95
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 282,
+              "end": 283
+            },
+            "atomic": false,
+            "start": 95,
+            "end": 96
+          },
+          {
+            "text": "careful reading",
+            "atomic": true,
+            "source": {
+              "file": "paper/main.tex",
+              "start": 283,
+              "end": 291
+            },
+            "start": 96,
+            "end": 111
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 291,
+              "end": 292
+            },
+            "atomic": false,
+            "start": 111,
+            "end": 112
+          },
+          {
+            "text": "and",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 292,
+              "end": 295
+            },
+            "atomic": false,
+            "start": 112,
+            "end": 115
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 295,
+              "end": 296
+            },
+            "atomic": false,
+            "start": 115,
+            "end": 116
+          },
+          {
+            "text": "exact anchors",
+            "atomic": true,
+            "source": {
+              "file": "paper/main.tex",
+              "start": 296,
+              "end": 316
+            },
+            "start": 116,
+            "end": 129
+          },
+          {
+            "text": ",",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 316,
+              "end": 317
+            },
+            "atomic": false,
+            "start": 129,
+            "end": 130
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 317,
+              "end": 318
+            },
+            "atomic": false,
+            "start": 130,
+            "end": 131
+          },
+          {
+            "text": "with",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 318,
+              "end": 322
+            },
+            "atomic": false,
+            "start": 131,
+            "end": 135
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 322,
+              "end": 323
+            },
+            "atomic": false,
+            "start": 135,
+            "end": 136
+          },
+          {
+            "text": "emphasis",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 329,
+              "end": 337
+            },
+            "atomic": false,
+            "style": "emphasis",
+            "start": 136,
+            "end": 144
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 338,
+              "end": 339
+            },
+            "atomic": false,
+            "start": 144,
+            "end": 145
+          },
+          {
+            "text": "and",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 339,
+              "end": 342
+            },
+            "atomic": false,
+            "start": 145,
+            "end": 148
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 342,
+              "end": 343
+            },
+            "atomic": false,
+            "start": 148,
+            "end": 149
+          },
+          {
+            "text": "a",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 343,
+              "end": 344
+            },
+            "atomic": false,
+            "start": 149,
+            "end": 150
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 344,
+              "end": 345
+            },
+            "atomic": false,
+            "start": 150,
+            "end": 151
+          },
+          {
+            "text": "citation",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 345,
+              "end": 353
+            },
+            "atomic": false,
+            "start": 151,
+            "end": 159
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 353,
+              "end": 354
+            },
+            "atomic": false,
+            "start": 159,
+            "end": 160
+          },
+          {
+            "text": "[smith2024]",
+            "atomic": true,
+            "source": {
+              "file": "paper/main.tex",
+              "start": 354,
+              "end": 370
+            },
+            "start": 160,
+            "end": 171
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 370,
+              "end": 371
+            },
+            "atomic": false,
+            "start": 171,
+            "end": 172
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 371,
+              "end": 372
+            },
+            "atomic": false,
+            "start": 172,
+            "end": 173
+          },
+          {
+            "text": "A",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 372,
+              "end": 373
+            },
+            "atomic": false,
+            "start": 173,
+            "end": 174
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 373,
+              "end": 374
+            },
+            "atomic": false,
+            "start": 174,
+            "end": 175
+          },
+          {
+            "text": "footnote",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 374,
+              "end": 382
+            },
+            "atomic": false,
+            "start": 175,
+            "end": 183
+          },
+          {
+            "text": " [Footnote: This is the complete footnote.]",
+            "atomic": true,
+            "source": {
+              "file": "paper/main.tex",
+              "start": 382,
+              "end": 423
+            },
+            "style": "footnote",
+            "start": 183,
+            "end": 226
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 423,
+              "end": 424
+            },
+            "atomic": false,
+            "start": 226,
+            "end": 227
+          },
+          {
+            "text": "stays",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 424,
+              "end": 429
+            },
+            "atomic": false,
+            "start": 227,
+            "end": 232
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 429,
+              "end": 430
+            },
+            "atomic": false,
+            "start": 232,
+            "end": 233
+          },
+          {
+            "text": "visible",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 430,
+              "end": 437
+            },
+            "atomic": false,
+            "start": 233,
+            "end": 240
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 437,
+              "end": 438
+            },
+            "atomic": false,
+            "start": 240,
+            "end": 241
+          }
+        ],
+        "start": 89,
+        "end": 241,
+        "section": 1,
+        "heading": "Background",
+        "paragraph": 2
+      },
+      {
+        "id": "b4",
+        "kind": "heading",
+        "level": 2,
+        "runs": [
+          {
+            "text": "Methods",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 449,
+              "end": 456
+            },
+            "atomic": false,
+            "start": 243,
+            "end": 250
+          }
+        ],
+        "start": 243,
+        "end": 250,
+        "section": 2,
+        "heading": "Methods",
+        "paragraph": 0
+      },
+      {
+        "id": "b5",
+        "kind": "paragraph",
+        "runs": [
+          {
+            "text": "Before",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 458,
+              "end": 464
+            },
+            "atomic": false,
+            "start": 252,
+            "end": 258
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 464,
+              "end": 465
+            },
+            "atomic": false,
+            "start": 258,
+            "end": 259
+          },
+          {
+            "text": "E=mc^2",
+            "atomic": true,
+            "source": {
+              "file": "paper/main.tex",
+              "start": 465,
+              "end": 473
+            },
+            "kind": "math",
+            "math": "E=mc^2",
+            "display": false,
+            "start": 259,
+            "end": 265
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 473,
+              "end": 474
+            },
+            "atomic": false,
+            "start": 265,
+            "end": 266
+          },
+          {
+            "text": "after",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 474,
+              "end": 479
+            },
+            "atomic": false,
+            "start": 266,
+            "end": 271
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 479,
+              "end": 480
+            },
+            "atomic": false,
+            "start": 271,
+            "end": 272
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 480,
+              "end": 481
+            },
+            "atomic": false,
+            "start": 272,
+            "end": 273
+          },
+          {
+            "text": "The",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 481,
+              "end": 484
+            },
+            "atomic": false,
+            "start": 273,
+            "end": 276
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 484,
+              "end": 485
+            },
+            "atomic": false,
+            "start": 276,
+            "end": 277
+          },
+          {
+            "text": "expression",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 485,
+              "end": 495
+            },
+            "atomic": false,
+            "start": 277,
+            "end": 287
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 495,
+              "end": 496
+            },
+            "atomic": false,
+            "start": 287,
+            "end": 288
+          },
+          {
+            "text": "is",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 496,
+              "end": 498
+            },
+            "atomic": false,
+            "start": 288,
+            "end": 290
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 498,
+              "end": 499
+            },
+            "atomic": false,
+            "start": 290,
+            "end": 291
+          },
+          {
+            "text": "atomic",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 499,
+              "end": 505
+            },
+            "atomic": false,
+            "start": 291,
+            "end": 297
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 505,
+              "end": 506
+            },
+            "atomic": false,
+            "start": 297,
+            "end": 298
+          }
+        ],
+        "start": 252,
+        "end": 298,
+        "section": 2,
+        "heading": "Methods",
+        "paragraph": 1
+      },
+      {
+        "id": "b6",
+        "kind": "paragraph",
+        "runs": [
+          {
+            "text": "\\int_0^1 x^2\\,dx=\\frac13",
+            "atomic": true,
+            "source": {
+              "file": "paper/main.tex",
+              "start": 507,
+              "end": 537
+            },
+            "kind": "math",
+            "math": "\\int_0^1 x^2\\,dx=\\frac13",
+            "display": true,
+            "start": 300,
+            "end": 324
+          }
+        ],
+        "start": 300,
+        "end": 324,
+        "section": 2,
+        "heading": "Methods",
+        "paragraph": 2
+      },
+      {
+        "id": "b7",
+        "kind": "list",
+        "runs": [
+          {
+            "text": "First",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 560,
+              "end": 565
+            },
+            "atomic": false,
+            "start": 326,
+            "end": 331
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 565,
+              "end": 566
+            },
+            "atomic": false,
+            "start": 331,
+            "end": 332
+          },
+          {
+            "text": "item",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 566,
+              "end": 570
+            },
+            "atomic": false,
+            "start": 332,
+            "end": 336
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 570,
+              "end": 571
+            },
+            "atomic": false,
+            "start": 336,
+            "end": 337
+          }
+        ],
+        "start": 326,
+        "end": 337,
+        "section": 2,
+        "heading": "Methods",
+        "paragraph": 3
+      },
+      {
+        "id": "b8",
+        "kind": "list",
+        "runs": [
+          {
+            "text": "Second",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 578,
+              "end": 584
+            },
+            "atomic": false,
+            "start": 339,
+            "end": 345
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 584,
+              "end": 585
+            },
+            "atomic": false,
+            "start": 345,
+            "end": 346
+          },
+          {
+            "text": "item",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 585,
+              "end": 589
+            },
+            "atomic": false,
+            "start": 346,
+            "end": 350
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 589,
+              "end": 590
+            },
+            "atomic": false,
+            "start": 350,
+            "end": 351
+          },
+          {
+            "text": "with",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 590,
+              "end": 594
+            },
+            "atomic": false,
+            "start": 351,
+            "end": 355
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 594,
+              "end": 595
+            },
+            "atomic": false,
+            "start": 355,
+            "end": 356
+          },
+          {
+            "text": "bold",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 603,
+              "end": 607
+            },
+            "atomic": false,
+            "style": "strong",
+            "start": 356,
+            "end": 360
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 607,
+              "end": 608
+            },
+            "atomic": false,
+            "style": "strong",
+            "start": 360,
+            "end": 361
+          },
+          {
+            "text": "text",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 608,
+              "end": 612
+            },
+            "atomic": false,
+            "style": "strong",
+            "start": 361,
+            "end": 365
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 613,
+              "end": 614
+            },
+            "atomic": false,
+            "start": 365,
+            "end": 366
+          }
+        ],
+        "start": 339,
+        "end": 366,
+        "section": 2,
+        "heading": "Methods",
+        "paragraph": 4
+      },
+      {
+        "id": "b9",
+        "kind": "table",
+        "runs": [
+          {
+            "text": "Name",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 649,
+              "end": 653
+            },
+            "atomic": false,
+            "start": 368,
+            "end": 372
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 653,
+              "end": 654
+            },
+            "atomic": false,
+            "start": 372,
+            "end": 373
+          },
+          {
+            "text": "\t",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 654,
+              "end": 655
+            },
+            "atomic": true,
+            "start": 373,
+            "end": 374
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 655,
+              "end": 656
+            },
+            "atomic": false,
+            "start": 374,
+            "end": 375
+          },
+          {
+            "text": "Value",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 656,
+              "end": 661
+            },
+            "atomic": false,
+            "start": 375,
+            "end": 380
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 661,
+              "end": 662
+            },
+            "atomic": false,
+            "start": 380,
+            "end": 381
+          },
+          {
+            "text": "\n",
+            "atomic": true,
+            "source": {
+              "file": "paper/main.tex",
+              "start": 662,
+              "end": 664
+            },
+            "start": 381,
+            "end": 382
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 664,
+              "end": 665
+            },
+            "atomic": true,
+            "start": 382,
+            "end": 383
+          },
+          {
+            "text": "Alpha",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 665,
+              "end": 670
+            },
+            "atomic": false,
+            "start": 383,
+            "end": 388
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 670,
+              "end": 671
+            },
+            "atomic": false,
+            "start": 388,
+            "end": 389
+          },
+          {
+            "text": "\t",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 671,
+              "end": 672
+            },
+            "atomic": true,
+            "start": 389,
+            "end": 390
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 672,
+              "end": 673
+            },
+            "atomic": false,
+            "start": 390,
+            "end": 391
+          },
+          {
+            "text": "42",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 673,
+              "end": 675
+            },
+            "atomic": false,
+            "start": 391,
+            "end": 393
+          }
+        ],
+        "start": 368,
+        "end": 393,
+        "section": 2,
+        "heading": "Methods",
+        "paragraph": 5
+      },
+      {
+        "id": "b10",
+        "kind": "paragraph",
+        "runs": [
+          {
+            "text": "[Image: diagram.svg]",
+            "atomic": true,
+            "source": {
+              "file": "paper/main.tex",
+              "start": 708,
+              "end": 757
+            },
+            "kind": "image",
+            "image": "paper/diagram.svg",
+            "start": 395,
+            "end": 415
+          }
+        ],
+        "start": 395,
+        "end": 415,
+        "section": 2,
+        "heading": "Methods",
+        "paragraph": 6
+      },
+      {
+        "id": "b11",
+        "kind": "paragraph",
+        "level": 3,
+        "runs": [
+          {
+            "text": "An",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 767,
+              "end": 769
+            },
+            "atomic": false,
+            "style": "emphasis",
+            "start": 417,
+            "end": 419
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 769,
+              "end": 770
+            },
+            "atomic": false,
+            "style": "emphasis",
+            "start": 419,
+            "end": 420
+          },
+          {
+            "text": "example",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 770,
+              "end": 777
+            },
+            "atomic": false,
+            "style": "emphasis",
+            "start": 420,
+            "end": 427
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 777,
+              "end": 778
+            },
+            "atomic": false,
+            "style": "emphasis",
+            "start": 427,
+            "end": 428
+          },
+          {
+            "text": "figure",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 778,
+              "end": 784
+            },
+            "atomic": false,
+            "style": "emphasis",
+            "start": 428,
+            "end": 434
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/main.tex",
+              "start": 784,
+              "end": 785
+            },
+            "atomic": false,
+            "style": "emphasis",
+            "start": 434,
+            "end": 435
+          }
+        ],
+        "start": 417,
+        "end": 435,
+        "section": 2,
+        "heading": "Methods",
+        "paragraph": 7
+      },
+      {
+        "id": "b12",
+        "kind": "paragraph",
+        "runs": [
+          {
+            "text": "[Unsupported environment: tikzpicture]",
+            "atomic": true,
+            "source": {
+              "file": "paper/main.tex",
+              "start": 800,
+              "end": 857
+            },
+            "kind": "placeholder",
+            "start": 437,
+            "end": 475
+          }
+        ],
+        "start": 437,
+        "end": 475,
+        "section": 2,
+        "heading": "Methods",
+        "paragraph": 8
+      },
+      {
+        "id": "b13",
+        "kind": "heading",
+        "level": 2,
+        "runs": [
+          {
+            "text": "Conclusion",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 9,
+              "end": 19
+            },
+            "atomic": false,
+            "start": 477,
+            "end": 487
+          }
+        ],
+        "start": 477,
+        "end": 487,
+        "section": 3,
+        "heading": "Conclusion",
+        "paragraph": 0
+      },
+      {
+        "id": "b14",
+        "kind": "paragraph",
+        "runs": [
+          {
+            "text": "Included",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 21,
+              "end": 29
+            },
+            "atomic": false,
+            "start": 489,
+            "end": 497
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 29,
+              "end": 30
+            },
+            "atomic": false,
+            "start": 497,
+            "end": 498
+          },
+          {
+            "text": "text",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 30,
+              "end": 34
+            },
+            "atomic": false,
+            "start": 498,
+            "end": 502
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 34,
+              "end": 35
+            },
+            "atomic": false,
+            "start": 502,
+            "end": 503
+          },
+          {
+            "text": "has",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 35,
+              "end": 38
+            },
+            "atomic": false,
+            "start": 503,
+            "end": 506
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 38,
+              "end": 39
+            },
+            "atomic": false,
+            "start": 506,
+            "end": 507
+          },
+          {
+            "text": "its",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 39,
+              "end": 42
+            },
+            "atomic": false,
+            "start": 507,
+            "end": 510
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 42,
+              "end": 43
+            },
+            "atomic": false,
+            "start": 510,
+            "end": 511
+          },
+          {
+            "text": "own",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 43,
+              "end": 46
+            },
+            "atomic": false,
+            "start": 511,
+            "end": 514
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 46,
+              "end": 47
+            },
+            "atomic": false,
+            "start": 514,
+            "end": 515
+          },
+          {
+            "text": "source",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 47,
+              "end": 53
+            },
+            "atomic": false,
+            "start": 515,
+            "end": 521
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 53,
+              "end": 54
+            },
+            "atomic": false,
+            "start": 521,
+            "end": 522
+          },
+          {
+            "text": "coordinates",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 54,
+              "end": 65
+            },
+            "atomic": false,
+            "start": 522,
+            "end": 533
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 65,
+              "end": 66
+            },
+            "atomic": false,
+            "start": 533,
+            "end": 534
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 66,
+              "end": 67
+            },
+            "atomic": false,
+            "start": 534,
+            "end": 535
+          },
+          {
+            "text": "Unsupported",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 67,
+              "end": 78
+            },
+            "atomic": false,
+            "start": 535,
+            "end": 546
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 78,
+              "end": 79
+            },
+            "atomic": false,
+            "start": 546,
+            "end": 547
+          },
+          {
+            "text": "[Unsupported command: \\mystery{content}]",
+            "atomic": true,
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 79,
+              "end": 96
+            },
+            "kind": "placeholder",
+            "start": 547,
+            "end": 587
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 96,
+              "end": 97
+            },
+            "atomic": false,
+            "start": 587,
+            "end": 588
+          },
+          {
+            "text": "must",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 97,
+              "end": 101
+            },
+            "atomic": false,
+            "start": 588,
+            "end": 592
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 101,
+              "end": 102
+            },
+            "atomic": false,
+            "start": 592,
+            "end": 593
+          },
+          {
+            "text": "stay",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 102,
+              "end": 106
+            },
+            "atomic": false,
+            "start": 593,
+            "end": 597
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 106,
+              "end": 107
+            },
+            "atomic": false,
+            "start": 597,
+            "end": 598
+          },
+          {
+            "text": "visible",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 107,
+              "end": 114
+            },
+            "atomic": false,
+            "start": 598,
+            "end": 605
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 114,
+              "end": 115
+            },
+            "atomic": false,
+            "start": 605,
+            "end": 606
+          }
+        ],
+        "start": 489,
+        "end": 606,
+        "section": 3,
+        "heading": "Conclusion",
+        "paragraph": 1
+      },
+      {
+        "id": "b15",
+        "kind": "paragraph",
+        "runs": [
+          {
+            "text": "A",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 117,
+              "end": 118
+            },
+            "atomic": false,
+            "start": 608,
+            "end": 609
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 118,
+              "end": 119
+            },
+            "atomic": false,
+            "start": 609,
+            "end": 610
+          },
+          {
+            "text": "long",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 119,
+              "end": 123
+            },
+            "atomic": false,
+            "start": 610,
+            "end": 614
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 123,
+              "end": 124
+            },
+            "atomic": false,
+            "start": 614,
+            "end": 615
+          },
+          {
+            "text": "paragraph",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 124,
+              "end": 133
+            },
+            "atomic": false,
+            "start": 615,
+            "end": 624
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 133,
+              "end": 134
+            },
+            "atomic": false,
+            "start": 624,
+            "end": 625
+          },
+          {
+            "text": "with",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 134,
+              "end": 138
+            },
+            "atomic": false,
+            "start": 625,
+            "end": 629
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 138,
+              "end": 139
+            },
+            "atomic": false,
+            "start": 629,
+            "end": 630
+          },
+          {
+            "text": "a",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 139,
+              "end": 140
+            },
+            "atomic": false,
+            "start": 630,
+            "end": 631
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 140,
+              "end": 141
+            },
+            "atomic": false,
+            "start": 631,
+            "end": 632
+          },
+          {
+            "text": "repeated",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 141,
+              "end": 149
+            },
+            "atomic": false,
+            "start": 632,
+            "end": 640
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 149,
+              "end": 150
+            },
+            "atomic": false,
+            "start": 640,
+            "end": 641
+          },
+          {
+            "text": "phrase",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 150,
+              "end": 156
+            },
+            "atomic": false,
+            "start": 641,
+            "end": 647
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 156,
+              "end": 157
+            },
+            "atomic": false,
+            "start": 647,
+            "end": 648
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 157,
+              "end": 158
+            },
+            "atomic": false,
+            "start": 648,
+            "end": 649
+          },
+          {
+            "text": "The",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 158,
+              "end": 161
+            },
+            "atomic": false,
+            "start": 649,
+            "end": 652
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 161,
+              "end": 162
+            },
+            "atomic": false,
+            "start": 652,
+            "end": 653
+          },
+          {
+            "text": "repeated",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 162,
+              "end": 170
+            },
+            "atomic": false,
+            "start": 653,
+            "end": 661
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 170,
+              "end": 171
+            },
+            "atomic": false,
+            "start": 661,
+            "end": 662
+          },
+          {
+            "text": "phrase",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 171,
+              "end": 177
+            },
+            "atomic": false,
+            "start": 662,
+            "end": 668
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 177,
+              "end": 178
+            },
+            "atomic": false,
+            "start": 668,
+            "end": 669
+          },
+          {
+            "text": "is",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 178,
+              "end": 180
+            },
+            "atomic": false,
+            "start": 669,
+            "end": 671
+          },
+          {
+            "text": " ",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 180,
+              "end": 181
+            },
+            "atomic": false,
+            "start": 671,
+            "end": 672
+          },
+          {
+            "text": "intentional",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 181,
+              "end": 192
+            },
+            "atomic": false,
+            "start": 672,
+            "end": 683
+          },
+          {
+            "text": ".",
+            "source": {
+              "file": "paper/conclusion.tex",
+              "start": 192,
+              "end": 193
+            },
+            "atomic": false,
+            "start": 683,
+            "end": 684
+          }
+        ],
+        "start": 608,
+        "end": 684,
+        "section": 3,
+        "heading": "Conclusion",
+        "paragraph": 2
+      }
+    ],
+    "text": "The case for careful reading\n\nBackground\n\nRepeated phrase. 中文文本：读得更仔细。 Repeated phrase.\n\nWe use careful reading and exact anchors, with emphasis and a citation [smith2024]. A footnote [Footnote: This is the complete footnote.] stays visible.\n\nMethods\n\nBefore E=mc^2 after. The expression is atomic.\n\n\\int_0^1 x^2\\,dx=\\frac13\n\nFirst item.\n\nSecond item with bold text.\n\nName \t Value \n Alpha \t 42\n\n[Image: diagram.svg]\n\nAn example figure.\n\n[Unsupported environment: tikzpicture]\n\nConclusion\n\nIncluded text has its own source coordinates. Unsupported [Unsupported command: \\mystery{content}] must stay visible.\n\nA long paragraph with a repeated phrase. The repeated phrase is intentional.",
+    "warnings": [
+      "Unsupported environment: tikzpicture: preserved as a selectable placeholder; source is retained.",
+      "Unsupported command: \\mystery{content}: preserved as a selectable placeholder; source is retained."
+    ],
+    "original": {
+      "name": "latex-project.zip",
+      "data": "UEsDBBQAAAAIAOa7Yl2yDIDmjgAAAMIAAAAUAAAAcGFwZXIvY29uY2x1c2lvbi50ZXhdjjEOwjAQBPu8Yl/gPyAqeujSHPYptuT4LN+ZEEX5O4aSbrTSjmZW9pakHFcpPncdeE63LwYOMH4bIimSKWQrUOnNM7xIC6mQsTo8ivZapdk4zOuuxm0/vBTjYifWrgY12vFKmp6Z3TRdkKUsqNRoaVQjtmQRhMaVhzOgxkbKDvfI/yPSqPm5RyplN30AUEsDBBQAAAAIAOa7Yl1RS/jamwAAAMYAAAARAAAAcGFwZXIvZGlhZ3JhbS5zdmd1jk0OgjAQhfeeYjKutQXEv7TduXTjDYgMtBGBlImtHsADeERPIhi37l7yvu/lqeFWQ7w27aDRMvd7IUIIy5AtO1+LVEopRgIhuJKtxiyVCJZcbVnjTqJRns78r4XKNY3GeZUQ0RqFUUyRIY5kjnDXmCcj07W8GNyDNE76T8k3+XZFaE5UlPB+vuBY+Ms3HGLfeVZimjJqemdmH1BLAwQUAAAACADmu2JdVjrncjoCAACSAwAADgAAAHBhcGVyL21haW4udGV4XZLBahRBEIbv8xQFBklgM+yu8SQ5JKA3PajoIZ1IbU/tTpPumaG7J7tJ0yAe9AVEQX0ExYsHIeLLGKM3X8Hqmd0kLAxDdVX13399lChq2RqqvNToXEDrldQUM9E6alAe44wCGmfQl5ysaC5rY7AqgnC+LU5jkGhp2mqwhIWqZmtNnqyJB6PDFC38ZBpujSK3eOU1haclgURHMK0tB+s62PqytmGvAlqgaTQBOYenXJnQTFVh5ZwTBo+p08yEI+lVXYV9Nj+zdVsVMXtMDaGnAprS8ns5XHz/cvnuTfo+ff7348Pfr+e/f76//Pjt4vztn/PXv16+gvUrWfacgJlAP3eIwPNBN19ge9LzWbJdFwcwV74EQaYpQ/qhU65vR5DKY7IHgiMKznDreDjeiTnsMYbaV7UnsQqYkHLAn0+k6sTAJ1p9NY/gPJ46OFFOTXTyeDX9Q2J2hYvZPjFcgo37u0YejTcAp2w5h4SeFo1loskNP4G+NkrmmTjIhKr8i+HRCBZHYzEoFrtialGO7mTicMWezRt1lvYkRfBAWechhSzQZZ6QrHniLu55LBdgUusCUhy5lXhHrqV6aY+TVqONQeuYPUJDcBueoW4Zvcj2NPPkxM44nbr7q/7V/amatbZzVkndFjSz2JRKuoO5Kny5m9/tnHSHw1Ao5LrJ3UnaOIlNR+/GyvVqORfTW1faS6vq+KxR0qecKCzOYXM4GG7B9jZsjgajrXu9wRtdyVXT+sBw2Fxiv1S+Xub/UEsBAhQAFAAAAAgA5rtiXbIMgOaOAAAAwgAAABQAAAAAAAAAAAAAAAAAAAAAAHBhcGVyL2NvbmNsdXNpb24udGV4UEsBAhQAFAAAAAgA5rtiXVFL+NqbAAAAxgAAABEAAAAAAAAAAAAAAAAAwAAAAHBhcGVyL2RpYWdyYW0uc3ZnUEsBAhQAFAAAAAgA5rtiXVY653I6AgAAkgMAAA4AAAAAAAAAAAAAAAAAigEAAHBhcGVyL21haW4udGV4UEsFBgAAAAADAAMAvQAAAPADAAAAAA==",
+      "encoding": "base64"
+    }
+  },
+  "annotations": [
+    {
+      "id": "E1",
+      "type": "Verify",
+      "scope": "selection",
+      "anchor": {
+        "start": 259,
+        "end": 265,
+        "quote": "E=mc^2",
+        "before": "note [Footnote: This is the complete footnote.] stays visible.\n\nMethods\n\nBefore ",
+        "after": " after. The expression is atomic.\n\n\\int_0^1 x^2\\,dx=\\frac13\n\nFirst item.\n\nSecond",
+        "section": 2,
+        "sectionEnd": 2,
+        "heading": "Methods",
+        "paragraph": 1,
+        "paragraphEnd": 1,
+        "source": [
+          {
+            "file": "paper/main.tex",
+            "start": 465,
+            "end": 473
+          }
+        ]
+      },
+      "note": "Check the dimensions of the equation.",
+      "replacement": "",
+      "placement": "after",
+      "createdAt": 1793633472290
+    },
+    {
+      "id": "E2",
+      "type": "Replace",
+      "scope": "selection",
+      "anchor": {
+        "start": 116,
+        "end": 129,
+        "quote": "exact anchors",
+        "before": "ound\n\nRepeated phrase. 中文文本：读得更仔细。 Repeated phrase.\n\nWe use careful reading and ",
+        "after": ", with emphasis and a citation [smith2024]. A footnote [Footnote: This is the co",
+        "section": 1,
+        "sectionEnd": 1,
+        "heading": "Background",
+        "paragraph": 2,
+        "paragraphEnd": 2,
+        "source": [
+          {
+            "file": "paper/main.tex",
+            "start": 296,
+            "end": 316
+          }
+        ]
+      },
+      "note": "A replacement in progress. Keep the intended meaning.",
+      "replacement": "precise source",
+      "placement": "after",
+      "createdAt": 1793633472290
+    }
+  ],
+  "notes": [
+    "Too wordy",
+    "Get straight to the point",
+    "Find a source; if none exists, flag it."
+  ],
+  "filters": {
+    "preset": "Everything",
+    "type": "all",
+    "scope": "all"
+  },
+  "exportSettings": {
+    "audience": "ai",
+    "layout": "list",
+    "format": "md",
+    "instructions": "Apply only the revisions listed below. Preserve the author's voice and leave all other text unchanged. Respect Keep notes. Never invent facts or sources. Flag conflicting or ambiguous instructions instead of guessing. Unfinished annotations are requests for review, not permission to improvise.",
+    "filters": {
+      "preset": "Everything",
+      "type": "all",
+      "scope": "all"
+    }
+  },
+  "scroll": 300,
+  "updatedAt": 1793633472289,
+  "revision": 2,
+  "fileRevision": 2,
+  "editingId": "E2",
+  "readingOffset": 116
+}

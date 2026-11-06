@@ -1,0 +1,49 @@
+{
+  "name": "nitpick",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/copy-pdfjs-assets.mjs && vite --host 127.0.0.1",
+    "build": "node scripts/copy-pdfjs-assets.mjs && tsc -b && vite build",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "spike": "node --import tsx scripts/latex-spike.ts",
+    "samples": "node --import tsx scripts/create-samples.ts",
+    "format": "prettier --write src scripts tests *.ts *.json index.html",
+    "notices": "node scripts/license-notices.mjs",
+    "postinstall": "node scripts/copy-pdfjs-assets.mjs",
+    "screenshots:readme": "playwright test --config scripts/readme-screenshots.config.ts",
+    "sample:romeo": "node --import tsx scripts/create-romeo-sample.ts"
+  },
+  "dependencies": {
+    "@cantoo/pdf-lib": "2.11.1",
+    "@unified-latex/unified-latex-util-parse": "1.8.4",
+    "docx": "9.15.1",
+    "fflate": "0.8.3",
+    "idb": "8.0.4",
+    "katex": "0.19.1",
+    "lucide-react": "1.66.0",
+    "mammoth": "1.13.0",
+    "mdast-util-from-markdown": "2.1.0",
+    "micromark-util-decode-string": "2.0.1",
+    "parse5": "8.1.0",
+    "pdfjs-dist": "6.5.438",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/katex": "0.16.8",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "fake-indexeddb": "6.2.7",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}

@@ -1,0 +1,6 @@
+*.pdf binary
+*.docx binary
+*.zip binary
+*.png binary
+*.jpg binary
+public/THIRD-PARTY-NOTICES.txt -whitespace

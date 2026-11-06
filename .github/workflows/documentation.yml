@@ -1,0 +1,45 @@
+name: Verify and capture documentation
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'scripts/**'
+      - 'samples/**'
+      - 'tests/**'
+      - 'package*.json'
+      - '.github/workflows/documentation.yml'
+permissions:
+  contents: read
+jobs:
+  documentation:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run screenshots:readme
+      - name: Render the Word sample for visual review
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libreoffice-writer poppler-utils
+          mkdir -p artifacts/word-render
+          libreoffice -env:UserInstallation=file:///tmp/nitpick-docx-render --headless --convert-to pdf --outdir artifacts/word-render 'samples/Romeo and Juliet.docx'
+          pdftoppm -r 90 -png 'artifacts/word-render/Romeo and Juliet.pdf' artifacts/word-render/page
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: nitpick-documentation
+          path: |
+            docs/screenshots/
+            artifacts/word-render/
+            test-results/
+          retention-days: 7
