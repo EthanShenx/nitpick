@@ -9,6 +9,7 @@
   <img alt="Browser only" src="https://img.shields.io/badge/Browser-only-03629c" />
   <img alt="No document uploads" src="https://img.shields.io/badge/Document_uploads-none-2a7e3b" />
   <img alt="TypeScript and React" src="https://img.shields.io/badge/TypeScript-React-ff9f0a" />
+  <a href="https://github.com/EthanShenx/nitpick/actions/workflows/documentation.yml"><img alt="Build and screenshot checks" src="https://github.com/EthanShenx/nitpick/actions/workflows/documentation.yml/badge.svg" /></a>
 </p>
 
 Nitpick is a private workspace for annotating essays and preparing revisions for **a person, an AI, or both**. The document stays immutable. Nitpick records your instructions and exports them; it never edits the original or calls an AI.

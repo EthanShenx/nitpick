@@ -14,7 +14,7 @@ Local Chromium execution has been restricted by the macOS command sandbox. Earli
 
 ## Documentation run verified
 
-[GitHub Actions run 42232725120](https://github.com/EthanShenx/nitpick/actions/runs/42232725120) passed dependency installation, all 71 unit tests, the production build, and the real-browser documentation capture. The captures were visually reviewed. They show the committed Word example with Keep/Comment/global notes, Unicode apostrophes, a correctly aligned search highlight, and the live AI export preview. The Word file was also rendered to page images for visual review. This focused run does not represent a passing full end-to-end suite.
+[GitHub Actions run 42232725120](https://github.com/EthanShenx/nitpick/actions/runs/42232725120) passed dependency installation, all 71 unit tests, the production build, and the real-browser documentation capture. The captures were visually reviewed. They show the committed Word example with Keep/Comment/global notes, Unicode apostrophes, a correctly aligned search highlight, and the live AI export preview. The Word file was also rendered to page images for visual review. [Run 42233237663](https://github.com/EthanShenx/nitpick/actions/runs/42233237663) repeated all checks on the final Word sample after its speech pagination was improved; all three rendered pages were reviewed. This focused run does not represent a passing full end-to-end suite.
 
 ## Remaining limits
 
