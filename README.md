@@ -13,6 +13,23 @@
 
 Nitpick is a private workspace for annotating essays and preparing revisions for **a person, an AI, or both**. The document stays immutable. Nitpick records your instructions and exports them; it never edits the original or calls an AI.
 
+![Nitpick showing Romeo and Juliet imported from Word, with Keep and Comment annotations](docs/screenshots/word-annotations.png)
+
+<p align="center"><sub>A real Word import, with the original verse, section counts, global guidance, and independent annotations.</sub></p>
+
+<details>
+<summary><strong>See search and export snapshots</strong></summary>
+
+**Find a word or sentence without leaving the document.**
+
+![Searching for wherefore in the Word excerpt](docs/screenshots/document-search.png)
+
+**Preview complete, located revision instructions before copying or downloading.**
+
+![AI revision export with full quotes, context, and prompt word count](docs/screenshots/export-preview.png)
+
+</details>
+
 ## From reading to revision
 
 1. **Open** a document and read it in a locked, paper-like view.

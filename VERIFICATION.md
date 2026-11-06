@@ -12,6 +12,10 @@ The Playwright specifications in `tests/e2e/` cover import, annotate, save, reop
 
 Local Chromium execution has been restricted by the macOS command sandbox. Earlier browser checks verified core Markdown, Word, and LaTeX reading and annotation flows; this does not establish that every current end-to-end specification passes. Consult the workflow run for the checks actually executed.
 
+## Documentation run verified
+
+[GitHub Actions run 42232725120](https://github.com/EthanShenx/nitpick/actions/runs/42232725120) passed dependency installation, all 71 unit tests, the production build, and the real-browser documentation capture. The captures were visually reviewed. They show the committed Word example with Keep/Comment/global notes, Unicode apostrophes, a correctly aligned search highlight, and the live AI export preview. The Word file was also rendered to page images for visual review. This focused run does not represent a passing full end-to-end suite.
+
 ## Remaining limits
 
 - Native file-dialog completion and writable-file reuse have not been fully verified across real browsers. File-handle success, failure, and permission behavior are covered by unit tests.

@@ -27,6 +27,7 @@ for (const stanza of source.balcony.split('\n\n')) {
     speaker = lines[0];
   body.push(
     new Paragraph({
+      keepLines: true,
       children: /^[A-Z]+\.$/.test(speaker)
         ? [
             new TextRun({ text: speaker, bold: true }),
